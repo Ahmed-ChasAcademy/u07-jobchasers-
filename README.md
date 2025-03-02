@@ -38,3 +38,7 @@ React byggdes av facebook(meta) 2012 för att hjälpa till att bygga webbplatser
 
 **19. Vad är Redux Toolkit?** 
 **20. När, i vilka situationer vill man använda Redux Toolkit?**
+
+
+
+test
