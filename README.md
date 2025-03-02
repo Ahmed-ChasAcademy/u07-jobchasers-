@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**1.  Allmänt om ramverket React: Hur/Varför uppkom det? Vad är centralt i React?**
+React byggdes av facebook(meta) 2012 för att hjälpa till att bygga webbplatser snabbare och 			 i små bitar av koder. Den använder "komponenter" ett viktigt koncept i react som bryter ner webbplatser till små bitar av komponenter, varje komponent har sina egna koder och design och kan sedan enkelt kopplas till andra komponenter för att göra en hel webbsida fullt fungerande med komponenter kopplade till varandra.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. Vad är JSX?**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**3. Vad är en komponent?**
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+**4. Vad är props?**
+     Props är hur React-komponenter tar emot data från sina Parent komponenter. De är skrivskyddade och hjälper till att skicka information ner i komponentträdet.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**5. Vad menas med one-way-dataflow?**
+     Props är one-way flow från parent till children, de är read-only och immutable.
+**6. Hur kan man använda sig av konditionell rendering i React?**
+     vi kan använda condtional rendering med if-satser och ternary operators, som också kan användas inuti JSX på grund av hur kort den är.
+     
+**7. Vad menas med en återanvändbar komponent?**
+     Komponenter kan återanvändas genom att bara göra fler instanser av det i JSX av komponenten som renderas vanligtvis en app eller en rotkomponent. Varje komponent kommer att vara beroende av om den har funktioner inuti sig eller ansluten om funktionen finns i   
+     appkomponenten.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**8. Vad är state i React?**
 
-## Deploy on Vercel
+**9. Vad är det för skillnad mellan state och props?**
+**10. Vad menas med en kontrollerad komponent i React?**
+**11. Vad är en callback handler?**
+**12. Vad menas med "lifting state up"?**
+**13. Vad är syftet med useEffect-hook i React?**
+**14. Vad är syftet kring den s.k dependency-arrayen i useEffect?**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**15. Vilka fördelar finns det med att använda NextJS? Nackdelar?**
+**16. Vad menas med Routing? På vilket sätt löser NextJS Routing v.s "vanliga React"?**
+**17. Vad menas med Reacts ekosystem? Nämn några viktiga bibliotek i Reacts ekosystem?**
+**18. Vad är syftet med useContext? Vilket problem med props löser den?**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**19. Vad är Redux Toolkit?** 
+**20. När, i vilka situationer vill man använda Redux Toolkit?**
